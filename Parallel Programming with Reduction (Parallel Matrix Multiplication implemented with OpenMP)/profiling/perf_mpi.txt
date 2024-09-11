@@ -1,0 +1,850 @@
+MPI + OpenMP + SIMD + Memory Locality Matrix Multiplication (Optimized with -O3)
+Number of Processes: 1, Number of Threads: 32
+Output file to: /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt
+Multiplication Complete!
+Execution Time: 53 milliseconds
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 32 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     2,871,905,846      cpu-cycles:u                                                
+           412,646      cache-misses:u                                              
+             5,106      page-faults:u                                               
+
+       0.421677019 seconds time elapsed
+
+       1.426996000 seconds user
+       0.066348000 seconds sys
+
+
+
+Number of Processes: 2, Number of Threads: 16
+Output file to: /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt
+Multiplication Complete!
+Execution Time: 43 milliseconds
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 16 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     2,081,034,676      cpu-cycles:u                                                
+           501,413      cache-misses:u                                              
+             5,341      page-faults:u                                               
+
+       0.413115508 seconds time elapsed
+
+       0.955072000 seconds user
+       0.034398000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 16 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,465,096,540      cpu-cycles:u                                                
+           311,893      cache-misses:u                                              
+             5,428      page-faults:u                                               
+
+       0.527207337 seconds time elapsed
+
+       0.754585000 seconds user
+       0.053474000 seconds sys
+
+
+
+Number of Processes: 4, Number of Threads: 8
+Output file to: /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt
+Multiplication Complete!
+Execution Time: 64 milliseconds
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 8 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,381,536,883      cpu-cycles:u                                                
+           203,406      cache-misses:u                                              
+             5,281      page-faults:u                                               
+
+       0.426562761 seconds time elapsed
+
+       0.622773000 seconds user
+       0.029129000 seconds sys
+
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 8 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 8 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,379,764,364      cpu-cycles:u                                                
+           359,131      cache-misses:u                                              
+             5,282      page-faults:u                                               
+
+       0.487770197 seconds time elapsed
+
+     1,350,977,927      cpu-cycles:u                                                
+           388,825      cache-misses:u                                              
+             5,283      page-faults:u                                               
+       0.602672000 seconds user
+       0.037102000 seconds sys
+
+
+
+       0.735158105 seconds time elapsed
+
+       0.598525000 seconds user
+       0.031868000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 8 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,090,387,590      cpu-cycles:u                                                
+           501,943      cache-misses:u                                              
+             5,611      page-faults:u                                               
+
+       0.810164734 seconds time elapsed
+
+       0.510389000 seconds user
+       0.039521000 seconds sys
+
+
+
+Number of Processes: 8, Number of Threads: 4
+Output file to: /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt
+Multiplication Complete!
+Execution Time: 35 milliseconds
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 4 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 4 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,087,139,873      cpu-cycles:u                                                
+     1,086,514,891      cpu-cycles:u                                                
+           599,779      cache-misses:u                                              
+           613,343      cache-misses:u                                              
+             4,857      page-faults:u                                               
+
+             5,357      page-faults:u                                               
+
+       0.410416760 seconds time elapsed
+
+       0.415289918 seconds time elapsed
+
+       0.447218000 seconds user
+       0.448211000 seconds user
+       0.032651000 seconds sys
+
+
+       0.033640000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 4 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,086,962,813      cpu-cycles:u                                                
+           546,317      cache-misses:u                                              
+             5,364      page-faults:u                                               
+
+       0.431720500 seconds time elapsed
+
+       0.451094000 seconds user
+       0.030666000 seconds sys
+
+
+
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 4 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 4 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 4 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 4 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,056,534,686      cpu-cycles:u                                                
+     1,101,242,677      cpu-cycles:u                                                
+     1,100,874,319      cpu-cycles:u                                                
+         1,124,832      cache-misses:u                                              
+     1,102,016,221      cpu-cycles:u                                                
+         1,872,434      cache-misses:u                                              
+         2,022,612      cache-misses:u                                              
+         1,330,629      cache-misses:u                                              
+             5,330      page-faults:u                                               
+
+       0.905001852 seconds time elapsed
+
+       0.430349000 seconds user
+             5,355      page-faults:u                                               
+
+       0.865388779 seconds time elapsed
+
+             5,355      page-faults:u                                               
+
+       0.909763695 seconds time elapsed
+
+       0.456704000 seconds user
+       0.034977000 seconds sys
+
+
+             5,329      page-faults:u                                               
+
+       0.838113011 seconds time elapsed
+
+       0.455220000 seconds user
+       0.031875000 seconds sys
+
+
+       0.037680000 seconds sys
+
+
+       0.451451000 seconds user
+       0.036873000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 4 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+       829,413,047      cpu-cycles:u                                                
+         2,150,305      cache-misses:u                                              
+             6,128      page-faults:u                                               
+
+       0.854648011 seconds time elapsed
+
+       0.359756000 seconds user
+       0.046968000 seconds sys
+
+
+
+Number of Processes: 16, Number of Threads: 2
+Output file to: /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt
+Multiplication Complete!
+Execution Time: 31 milliseconds
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,070,769,935      cpu-cycles:u                                                
+         1,236,246      cache-misses:u                                              
+             4,783      page-faults:u                                               
+
+       0.427828717 seconds time elapsed
+
+       0.388161000 seconds user
+       0.032096000 seconds sys
+
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,076,176,350      cpu-cycles:u                                                
+           711,224      cache-misses:u                                              
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,082,826,973      cpu-cycles:u                                                
+           578,157      cache-misses:u                                              
+             5,290      page-faults:u                                               
+
+       0.419526524 seconds time elapsed
+
+       0.387557000 seconds user
+       0.032877000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,062,425,090      cpu-cycles:u                                                
+         1,070,502      cache-misses:u                                              
+             5,308      page-faults:u                                               
+
+       0.483299834 seconds time elapsed
+
+       0.390534000 seconds user
+       0.030884000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,083,467,919      cpu-cycles:u                                                
+         1,114,677      cache-misses:u                                              
+             5,291      page-faults:u                                               
+
+       0.417382889 seconds time elapsed
+
+       0.393396000 seconds user
+       0.027886000 seconds sys
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,069,149,403      cpu-cycles:u                                                
+         1,229,936      cache-misses:u                                              
+             5,294      page-faults:u                                               
+
+       0.442493322 seconds time elapsed
+
+       0.387887000 seconds user
+       0.033902000 seconds sys
+
+
+             5,292      page-faults:u                                               
+
+       0.419688415 seconds time elapsed
+
+       0.394982000 seconds user
+       0.024935000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,059,375,800      cpu-cycles:u                                                
+         1,604,449      cache-misses:u                                              
+             5,318      page-faults:u                                               
+
+       0.902521929 seconds time elapsed
+
+       0.393009000 seconds user
+       0.030000000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,066,721,073      cpu-cycles:u                                                
+         1,152,572      cache-misses:u                                              
+             5,296      page-faults:u                                               
+
+       1.075001172 seconds time elapsed
+
+       0.383607000 seconds user
+       0.039855000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,065,102,568      cpu-cycles:u                                                
+         1,236,333      cache-misses:u                                              
+             5,340      page-faults:u                                               
+
+       0.917994586 seconds time elapsed
+
+       0.396467000 seconds user
+       0.027892000 seconds sys
+
+
+     1,064,130,171      cpu-cycles:u                                                
+         1,344,667      cache-misses:u                                              
+             5,342      page-faults:u                                               
+
+       0.950742818 seconds time elapsed
+
+       0.383445000 seconds user
+       0.040940000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,063,168,147      cpu-cycles:u                                                
+         1,480,064      cache-misses:u                                              
+             5,312      page-faults:u                                               
+
+       0.949669927 seconds time elapsed
+
+       0.396145000 seconds user
+       0.029010000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,061,558,208      cpu-cycles:u                                                
+         1,637,884      cache-misses:u                                              
+             5,358      page-faults:u                                               
+
+       0.949211504 seconds time elapsed
+
+       0.394413000 seconds user
+       0.029955000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,060,683,960      cpu-cycles:u                                                
+         1,630,069      cache-misses:u                                              
+             5,350      page-faults:u                                               
+
+       0.873941407 seconds time elapsed
+
+       0.390709000 seconds user
+       0.032891000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,051,630,903      cpu-cycles:u                                                
+           687,565      cache-misses:u                                              
+             5,314      page-faults:u                                               
+
+       0.992569976 seconds time elapsed
+
+       0.391978000 seconds user
+       0.027136000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,058,927,977      cpu-cycles:u                                                
+         1,642,542      cache-misses:u                                              
+             5,316      page-faults:u                                               
+
+       0.944024103 seconds time elapsed
+
+       0.383834000 seconds user
+       0.040982000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 2 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+       803,129,592      cpu-cycles:u                                                
+           462,919      cache-misses:u                                              
+             7,152      page-faults:u                                               
+
+       0.914144134 seconds time elapsed
+
+       0.294096000 seconds user
+       0.038151000 seconds sys
+
+
+
+Number of Processes: 32, Number of Threads: 1
+Output file to: /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt
+Multiplication Complete!
+Execution Time: 59 milliseconds
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,491,052,399      cpu-cycles:u                                                
+         1,654,722      cache-misses:u                                              
+             4,819      page-faults:u                                               
+
+       0.591179175 seconds time elapsed
+
+       0.533828000 seconds user
+       0.032866000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,469,103,214      cpu-cycles:u                                                
+         1,627,740      cache-misses:u                                              
+             4,813      page-faults:u                                               
+
+       0.637793359 seconds time elapsed
+
+       0.529309000 seconds user
+       0.039872000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,482,333,700      cpu-cycles:u                                                
+         1,866,203      cache-misses:u                                              
+             4,812      page-faults:u                                               
+
+       0.596049884 seconds time elapsed
+
+       0.533842000 seconds user
+       0.033989000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,495,929,566      cpu-cycles:u                                                
+         1,613,506      cache-misses:u                                              
+             4,832      page-faults:u                                               
+
+       0.589538646 seconds time elapsed
+
+       0.521851000 seconds user
+       0.045811000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,495,566,373      cpu-cycles:u                                                
+         1,634,668      cache-misses:u                                              
+     1,495,267,934      cpu-cycles:u                                                
+         1,615,511      cache-misses:u                                              
+             5,339      page-faults:u                                               
+
+       0.589503314 seconds time elapsed
+
+       0.533699000 seconds user
+       0.034849000 seconds sys
+
+
+             4,824      page-faults:u                                               
+
+       0.588830858 seconds time elapsed
+
+       0.531061000 seconds user
+       0.036865000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,494,815,590      cpu-cycles:u                                                
+         1,908,160      cache-misses:u                                              
+             4,839      page-faults:u                                               
+
+       0.609679537 seconds time elapsed
+
+       0.542085000 seconds user
+       0.025956000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,482,553,002      cpu-cycles:u                                                
+         1,829,652      cache-misses:u                                              
+             5,322      page-faults:u                                               
+
+       0.598857339 seconds time elapsed
+
+       0.531711000 seconds user
+       0.037979000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,495,334,758      cpu-cycles:u                                                
+         1,601,618      cache-misses:u                                              
+             5,341      page-faults:u                                               
+
+       0.592280734 seconds time elapsed
+
+       0.526496000 seconds user
+       0.042715000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,491,394,021      cpu-cycles:u                                                
+         1,625,110      cache-misses:u                                              
+             5,336      page-faults:u                                               
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,464,633,062      cpu-cycles:u                                                
+         1,485,117      cache-misses:u                                              
+             5,325      page-faults:u                                               
+
+       0.629009717 seconds time elapsed
+
+       0.530773000 seconds user
+       0.037983000 seconds sys
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+       0.595989307 seconds time elapsed
+
+       0.533646000 seconds user
+       0.035908000 seconds sys
+
+
+
+
+     1,494,113,538      cpu-cycles:u                                                
+         1,931,876      cache-misses:u                                              
+             5,347      page-faults:u                                               
+
+       0.591816054 seconds time elapsed
+
+       0.531370000 seconds user
+       0.036956000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,464,257,376      cpu-cycles:u                                                
+         2,010,372      cache-misses:u                                              
+             5,360      page-faults:u                                               
+
+       1.239647717 seconds time elapsed
+
+       0.524428000 seconds user
+       0.045862000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,459,250,645      cpu-cycles:u                                                
+         2,040,446      cache-misses:u                                              
+             5,346      page-faults:u                                               
+
+       3.394886572 seconds time elapsed
+
+       0.526166000 seconds user
+       0.045753000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,460,970,332      cpu-cycles:u                                                
+         2,014,719      cache-misses:u                                              
+             5,357      page-faults:u                                               
+
+       1.076934419 seconds time elapsed
+
+       0.528769000 seconds user
+       0.042819000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,460,992,994      cpu-cycles:u                                                
+         2,019,354      cache-misses:u                                              
+             5,361      page-faults:u                                               
+
+       1.003416517 seconds time elapsed
+
+       0.531621000 seconds user
+       0.039821000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,464,248,879      cpu-cycles:u                                                
+         2,019,823      cache-misses:u                                              
+             5,354      page-faults:u                                               
+
+       0.967620699 seconds time elapsed
+
+       0.535560000 seconds user
+       0.035903000 seconds sys
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,465,665,211      cpu-cycles:u                                                
+         2,042,861      cache-misses:u                                              
+             5,324      page-faults:u                                               
+
+
+
+       1.112455468 seconds time elapsed
+
+       0.529463000 seconds user
+       0.042875000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,465,346,531      cpu-cycles:u                                                
+         2,036,502      cache-misses:u                                              
+             5,356      page-faults:u                                               
+
+       2.350044785 seconds time elapsed
+
+       0.530085000 seconds user
+       0.042925000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,454,109,338      cpu-cycles:u                                                
+         2,054,291      cache-misses:u                                              
+             5,319      page-faults:u                                               
+
+       3.843521770 seconds time elapsed
+
+       0.518771000 seconds user
+       0.051877000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,469,688,246      cpu-cycles:u                                                
+         2,011,238      cache-misses:u                                              
+             5,319      page-faults:u                                               
+
+       2.248178543 seconds time elapsed
+
+       0.528588000 seconds user
+       0.043965000 seconds sys
+
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,471,628,002      cpu-cycles:u                                                
+         2,013,284      cache-misses:u                                              
+             5,352      page-faults:u                                               
+
+       1.081847241 seconds time elapsed
+
+       0.530852000 seconds user
+       0.042988000 seconds sys
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,471,909,211      cpu-cycles:u                                                
+         2,008,316      cache-misses:u                                              
+             5,347      page-faults:u                                               
+
+       1.081846910 seconds time elapsed
+
+       0.526410000 seconds user
+       0.046947000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,461,074,203      cpu-cycles:u                                                
+         2,040,524      cache-misses:u                                              
+             5,363      page-faults:u                                               
+
+       2.216757655 seconds time elapsed
+
+       0.525023000 seconds user
+       0.047910000 seconds sys
+
+
+     1,482,614,270      cpu-cycles:u                                                
+         1,397,097      cache-misses:u                                              
+             5,328      page-faults:u                                               
+
+       1.474270552 seconds time elapsed
+
+       0.526967000 seconds user
+       0.045823000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,461,752,456      cpu-cycles:u                                                
+         2,024,294      cache-misses:u                                              
+             5,361      page-faults:u                                               
+
+       6.346874213 seconds time elapsed
+
+       0.526408000 seconds user
+       0.047855000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,460,444,366      cpu-cycles:u                                                
+         1,991,770      cache-misses:u                                              
+             5,368      page-faults:u                                               
+
+       0.944717937 seconds time elapsed
+
+       0.516102000 seconds user
+       0.056681000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,456,820,089      cpu-cycles:u                                                
+         2,056,100      cache-misses:u                                              
+             5,347      page-faults:u                                               
+
+       0.934397577 seconds time elapsed
+
+       0.524375000 seconds user
+       0.046765000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,460,948,257      cpu-cycles:u                                                
+         2,000,671      cache-misses:u                                              
+             5,362      page-faults:u                                               
+
+       1.158141202 seconds time elapsed
+
+       0.524135000 seconds user
+       0.048733000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,459,315,035      cpu-cycles:u                                                
+         2,036,981      cache-misses:u                                              
+             5,365      page-faults:u                                               
+
+       2.755762328 seconds time elapsed
+
+       0.534524000 seconds user
+       0.038748000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,459,957,216      cpu-cycles:u                                                
+         2,016,296      cache-misses:u                                              
+             5,349      page-faults:u                                               
+
+       2.133337051 seconds time elapsed
+
+       0.519131000 seconds user
+       0.053600000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/src/mpi 1 /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix5.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../matrices/matrix6.txt /nfsmnt/120090712/CSC4005-2023Fall/project2/src/../build/result.txt':
+
+     1,220,277,356      cpu-cycles:u                                                
+         1,592,651      cache-misses:u                                              
+             7,170      page-faults:u                                               
+
+       1.199522122 seconds time elapsed
+
+       0.440603000 seconds user
+       0.052661000 seconds sys
+
+
+

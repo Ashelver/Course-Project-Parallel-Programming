@@ -1,0 +1,870 @@
+Bucket Sort Sequential (Optimized with -O3)
+Bucket Sort Complete!
+Execution Time: 10953 milliseconds
+std::sort Time: 12043 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_sequential 100000000 1000000':
+
+    73,332,632,824      cpu-cycles:u                                                
+       298,761,316      cache-misses:u                                              
+           336,053      page-faults:u                                               
+
+      26.132203072 seconds time elapsed
+
+      25.403565000 seconds user
+       0.657332000 seconds sys
+
+
+
+Bucket Sort MPI (Optimized with -O3)
+Number of cores: 1
+Bucket Sort Complete!
+Execution Time: 10521 milliseconds
+std::sort Time: 10948 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    67,995,166,056      cpu-cycles:u                                                
+       338,831,653      cache-misses:u                                              
+           291,947      page-faults:u                                               
+
+      24.499699019 seconds time elapsed
+
+      23.533600000 seconds user
+       0.882884000 seconds sys
+
+
+Number of cores: 2
+Bucket Sort Complete!
+Execution Time: 7522 milliseconds
+std::sort Time: 14330 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    71,127,354,229      cpu-cycles:u                                                
+       150,834,795      cache-misses:u                                              
+           147,591      page-faults:u                                               
+
+      26.138173215 seconds time elapsed
+
+      24.824444000 seconds user
+       1.234039000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    73,201,446,524      cpu-cycles:u                                                
+       224,386,699      cache-misses:u                                              
+           151,936      page-faults:u                                               
+
+      26.140515163 seconds time elapsed
+
+      25.354630000 seconds user
+       0.707875000 seconds sys
+
+
+Number of cores: 4
+Bucket Sort Complete!
+Execution Time: 4295 milliseconds
+std::sort Time: 14308 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    62,432,785,762      cpu-cycles:u                                                
+        86,808,625      cache-misses:u                                              
+            78,646      page-faults:u                                               
+
+      22.903471713 seconds time elapsed
+
+      21.958460000 seconds user
+       0.872990000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    62,437,755,310      cpu-cycles:u                                                
+        84,651,418      cache-misses:u                                              
+            78,312      page-faults:u                                               
+
+      22.909198025 seconds time elapsed
+
+      21.897243000 seconds user
+       0.939821000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    62,346,009,548      cpu-cycles:u                                                
+        82,540,254      cache-misses:u                                              
+            78,300      page-faults:u                                               
+
+      23.265163610 seconds time elapsed
+
+      21.856808000 seconds user
+       0.981651000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    64,348,656,180      cpu-cycles:u                                                
+       161,465,483      cache-misses:u                                              
+            81,906      page-faults:u                                               
+
+      23.244540160 seconds time elapsed
+
+      22.306109000 seconds user
+       0.536679000 seconds sys
+
+
+Number of cores: 8
+Bucket Sort Complete!
+Execution Time: 2625 milliseconds
+std::sort Time: 14307 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    57,960,053,437      cpu-cycles:u                                                
+        55,967,145      cache-misses:u                                              
+            42,618      page-faults:u                                               
+
+      21.235053892 seconds time elapsed
+
+      20.320051000 seconds user
+       0.847957000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    58,030,795,294      cpu-cycles:u                                                
+        55,752,543      cache-misses:u                                              
+            42,352      page-faults:u                                               
+
+      21.721221178 seconds time elapsed
+
+      20.324324000 seconds user
+       0.844061000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    57,801,526,096      cpu-cycles:u                                                
+        55,737,976      cache-misses:u                                              
+            42,973      page-faults:u                                               
+
+      21.759584895 seconds time elapsed
+
+      20.269994000 seconds user
+       0.900822000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    57,902,520,741      cpu-cycles:u                                                
+        57,191,426      cache-misses:u                                              
+            42,880      page-faults:u                                               
+
+      21.248670907 seconds time elapsed
+
+      20.324136000 seconds user
+       0.846963000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    58,023,106,548      cpu-cycles:u                                                
+        57,617,175      cache-misses:u                                              
+            43,354      page-faults:u                                               
+
+      21.240386858 seconds time elapsed
+
+      20.329389000 seconds user
+       0.841071000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    57,946,817,511      cpu-cycles:u                                                
+        57,700,669      cache-misses:u                                              
+            42,979      page-faults:u                                               
+
+      21.243119391 seconds time elapsed
+
+      20.326370000 seconds user
+       0.848996000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    57,922,885,501      cpu-cycles:u                                                
+        55,339,283      cache-misses:u                                              
+            42,622      page-faults:u                                               
+
+      21.708950682 seconds time elapsed
+
+      20.280775000 seconds user
+       0.894872000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    59,832,817,389      cpu-cycles:u                                                
+       136,198,394      cache-misses:u                                              
+            46,111      page-faults:u                                               
+
+      21.684736053 seconds time elapsed
+
+      20.746953000 seconds user
+       0.432913000 seconds sys
+
+
+Number of cores: 16
+Bucket Sort Complete!
+Execution Time: 1713 milliseconds
+std::sort Time: 14411 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,125,532,494      cpu-cycles:u                                                
+        42,172,560      cache-misses:u                                              
+            25,111      page-faults:u                                               
+
+      20.981985337 seconds time elapsed
+
+      19.678412000 seconds user
+       0.890890000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,228,563,709      cpu-cycles:u                                                
+        43,610,881      cache-misses:u                                              
+            25,414      page-faults:u                                               
+
+      21.003953217 seconds time elapsed
+
+      19.731358000 seconds user
+       0.837976000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,253,833,015      cpu-cycles:u                                                
+        42,753,608      cache-misses:u                                              
+            24,614      page-faults:u                                               
+
+      20.636045384 seconds time elapsed
+
+      19.713179000 seconds user
+       0.856964000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,278,864,196      cpu-cycles:u                                                
+        42,845,251      cache-misses:u                                              
+            25,917      page-faults:u                                               
+
+      21.034130128 seconds time elapsed
+
+      19.724216000 seconds user
+       0.845038000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,302,383,860      cpu-cycles:u                                                
+        42,822,422      cache-misses:u                                              
+            25,324      page-faults:u                                               
+
+      21.004667171 seconds time elapsed
+
+      19.709591000 seconds user
+       0.857892000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,313,776,815      cpu-cycles:u                                                
+        42,443,260      cache-misses:u                                              
+            24,446      page-faults:u                                               
+
+      21.040909405 seconds time elapsed
+
+      19.732215000 seconds user
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,337,013,355      cpu-cycles:u                                                
+       0.837970000 seconds sys
+
+
+        43,362,878      cache-misses:u                                              
+            25,574      page-faults:u                                               
+
+      20.639127265 seconds time elapsed
+
+      19.785489000 seconds user
+       0.784156000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,312,387,192      cpu-cycles:u                                                
+        43,899,382      cache-misses:u                                              
+            24,967      page-faults:u                                               
+
+      20.646782023 seconds time elapsed
+
+      19.735626000 seconds user
+       0.835037000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,339,681,354      cpu-cycles:u                                                
+        43,409,890      cache-misses:u                                              
+            25,395      page-faults:u                                               
+
+      21.104271732 seconds time elapsed
+
+      19.788816000 seconds user
+       0.782174000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,282,874,835      cpu-cycles:u                                                
+        42,939,984      cache-misses:u                                              
+            25,206      page-faults:u                                               
+
+      21.012646804 seconds time elapsed
+
+      19.740929000 seconds user
+       0.829065000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,277,540,367      cpu-cycles:u                                                
+        43,896,367      cache-misses:u                                              
+            25,332      page-faults:u                                               
+
+      20.636228659 seconds time elapsed
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,331,153,790      cpu-cycles:u                                                
+        44,063,467      cache-misses:u                                              
+            24,974      page-faults:u                                               
+
+      20.639834331 seconds time elapsed
+
+      19.739193000 seconds user
+       0.831071000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,309,296,959      cpu-cycles:u                                                
+        42,985,042      cache-misses:u                                              
+            24,272      page-faults:u                                               
+
+      20.662691102 seconds time elapsed
+
+      19.745790000 seconds user
+       0.825069000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,286,357,919      cpu-cycles:u                                                
+        42,602,164      cache-misses:u                                              
+            25,398      page-faults:u                                               
+
+      20.652508670 seconds time elapsed
+
+      19.742862000 seconds user
+       0.827108000 seconds sys
+
+
+      19.676890000 seconds user
+       0.893905000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,347,948,426      cpu-cycles:u                                                
+        43,779,126      cache-misses:u                                              
+            25,057      page-faults:u                                               
+
+      20.647938065 seconds time elapsed
+
+      19.711769000 seconds user
+       0.858985000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    57,659,315,632      cpu-cycles:u                                                
+       121,829,995      cache-misses:u                                              
+            28,937      page-faults:u                                               
+
+      20.964951646 seconds time elapsed
+
+      19.995324000 seconds user
+       0.579646000 seconds sys
+
+
+Number of cores: 32
+Bucket Sort Complete!
+Execution Time: 1597 milliseconds
+std::sort Time: 14470 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,521,063,955      cpu-cycles:u                                                
+        36,001,718      cache-misses:u                                              
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,474,625,582      cpu-cycles:u                                                
+        36,340,380      cache-misses:u                                              
+            15,048      page-faults:u                                               
+
+      20.739405214 seconds time elapsed
+
+      19.761988000 seconds user
+       0.908883000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,448,852,841      cpu-cycles:u                                                
+        36,653,222      cache-misses:u                                              
+            15,822      page-faults:u                                               
+
+      20.739747546 seconds time elapsed
+
+      19.809188000 seconds user
+       0.861052000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,467,170,915      cpu-cycles:u                                                
+            15,386      page-faults:u                                               
+
+      20.739035537 seconds time elapsed
+
+      19.818666000 seconds user
+       0.852050000 seconds sys
+
+
+        35,908,844      cache-misses:u                                              
+            15,821      page-faults:u                                               
+
+      20.776203635 seconds time elapsed
+
+      19.809407000 seconds user
+       0.861929000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,465,010,710      cpu-cycles:u                                                
+        36,702,976      cache-misses:u                                              
+            15,764      page-faults:u                                               
+
+      20.741049351 seconds time elapsed
+
+      19.782747000 seconds user
+       0.887924000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,496,720,480      cpu-cycles:u                                                
+        36,546,625      cache-misses:u                                              
+            14,993      page-faults:u                                               
+
+      20.742624299 seconds time elapsed
+
+      19.797154000 seconds user
+       0.873976000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,465,205,177      cpu-cycles:u                                                
+        36,717,525      cache-misses:u                                              
+            15,355      page-faults:u                                               
+
+      20.752214072 seconds time elapsed
+
+      19.819156000 seconds user
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,375,417,283      cpu-cycles:u                                                
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,378,574,599      cpu-cycles:u                                                
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,514,326,583      cpu-cycles:u                                                
+        36,852,697      cache-misses:u                                              
+            15,438      page-faults:u                                               
+
+      20.739654787 seconds time elapsed
+
+      19.818132000 seconds user
+       0.852939000 seconds sys
+
+
+       0.852029000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,381,712,406      cpu-cycles:u                                                
+        34,542,288      cache-misses:u                                              
+            15,902      page-faults:u                                               
+
+      20.740159818 seconds time elapsed
+
+      19.799818000 seconds user
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,371,935,208      cpu-cycles:u                                                
+        36,144,749      cache-misses:u                                              
+            15,476      page-faults:u                                               
+
+      20.742199882 seconds time elapsed
+
+      19.735328000 seconds user
+       0.935786000 seconds sys
+
+
+        36,788,797      cache-misses:u                                              
+            15,733      page-faults:u                                               
+
+      20.776938961 seconds time elapsed
+
+      19.799683000 seconds user
+       0.872004000 seconds sys
+
+
+        36,638,741      cache-misses:u                                              
+            15,857      page-faults:u                                               
+
+      20.745644289 seconds time elapsed
+
+      19.784201000 seconds user
+       0.886902000 seconds sys
+
+
+       0.870968000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    55,706,050,452      cpu-cycles:u                                                
+        37,237,364      cache-misses:u                                              
+            11,365      page-faults:u                                               
+
+      21.110369263 seconds time elapsed
+
+      19.578990000 seconds user
+       1.100470000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,085,046,129      cpu-cycles:u                                                
+    56,114,132,815      cpu-cycles:u                                                
+        37,650,326      cache-misses:u                                              
+            12,303      page-faults:u                                               
+
+      21.173279891 seconds time elapsed
+
+      19.697219000 seconds user
+       0.982537000 seconds sys
+
+
+        37,968,028      cache-misses:u                                              
+            11,865      page-faults:u                                               
+
+      21.235912485 seconds time elapsed
+
+      19.720394000 seconds user
+       0.959252000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,287,482,372      cpu-cycles:u                                                
+        37,924,786      cache-misses:u                                              
+            15,773      page-faults:u                                               
+
+      21.365690944 seconds time elapsed
+
+      19.769487000 seconds user
+       0.910902000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,102,534,199      cpu-cycles:u                                                
+        37,375,810      cache-misses:u                                              
+            11,712      page-faults:u                                               
+
+      21.138700239 seconds time elapsed
+
+      19.716340000 seconds user
+       0.963298000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,112,119,838      cpu-cycles:u                                                
+        37,661,725      cache-misses:u                                              
+            11,947      page-faults:u                                               
+
+      21.165401057 seconds time elapsed
+
+      19.689333000 seconds user
+       0.990651000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,088,574,700      cpu-cycles:u                                                
+        37,567,148      cache-misses:u                                              
+            11,753      page-faults:u                                               
+
+      21.126114845 seconds time elapsed
+
+      19.691126000 seconds user
+       0.988646000 seconds sys
+
+
+    55,993,004,503      cpu-cycles:u                                                
+        37,644,148      cache-misses:u                                              
+            11,755      page-faults:u                                               
+
+      21.291281685 seconds time elapsed
+
+      19.666306000 seconds user
+       1.013644000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,118,266,235      cpu-cycles:u                                                
+        37,665,309      cache-misses:u                                              
+            11,495      page-faults:u                                               
+
+      21.220680455 seconds time elapsed
+
+      19.706873000 seconds user
+       0.970678000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,126,374,377      cpu-cycles:u                                                
+        37,705,505      cache-misses:u                                              
+            11,524      page-faults:u                                               
+
+      21.131179396 seconds time elapsed
+
+      19.717060000 seconds user
+       0.962708000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,080,319,645      cpu-cycles:u                                                
+        37,285,446      cache-misses:u                                              
+            11,966      page-faults:u                                               
+
+      21.190117001 seconds time elapsed
+
+      19.679731000 seconds user
+       0.999599000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,120,122,645      cpu-cycles:u                                                
+        37,102,369      cache-misses:u                                              
+            11,790      page-faults:u                                               
+
+      21.212733341 seconds time elapsed
+
+      19.735494000 seconds user
+       0.944773000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,116,137,917      cpu-cycles:u                                                
+        37,089,779      cache-misses:u                                              
+            11,663      page-faults:u                                               
+
+      21.255245718 seconds time elapsed
+
+      19.710863000 seconds user
+       0.968634000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,122,162,914      cpu-cycles:u                                                
+        37,868,610      cache-misses:u                                              
+            11,997      page-faults:u                                               
+
+      21.139825653 seconds time elapsed
+
+      19.696025000 seconds user
+       0.984058000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,114,507,968      cpu-cycles:u                                                
+        37,856,699      cache-misses:u                                              
+            11,430      page-faults:u                                               
+
+      21.136714152 seconds time elapsed
+
+      19.710166000 seconds user
+       0.969744000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,128,401,573      cpu-cycles:u                                                
+        37,820,421      cache-misses:u                                              
+            12,145      page-faults:u                                               
+
+      21.383359597 seconds time elapsed
+
+      19.728303000 seconds user
+       0.951795000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,082,052,592      cpu-cycles:u                                                
+        37,439,752      cache-misses:u                                              
+            11,418      page-faults:u                                               
+
+      21.634166892 seconds time elapsed
+
+      19.734168000 seconds user
+       0.946233000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,079,973,794      cpu-cycles:u                                                
+        37,724,277      cache-misses:u                                              
+            11,148      page-faults:u                                               
+
+      21.569603978 seconds time elapsed
+
+      19.751085000 seconds user
+       0.928887000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    56,084,508,551      cpu-cycles:u                                                
+        37,432,805      cache-misses:u                                              
+            12,073      page-faults:u                                               
+
+      21.409672530 seconds time elapsed
+
+      19.710925000 seconds user
+       0.969590000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/bucketsort/bucketsort_mpi 100000000 2000000':
+
+    58,048,170,921      cpu-cycles:u                                                
+       118,186,825      cache-misses:u                                              
+            16,741      page-faults:u                                               
+
+      21.099602953 seconds time elapsed
+
+      20.173409000 seconds user
+       0.512714000 seconds sys
+
+
+

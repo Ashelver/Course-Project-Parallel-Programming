@@ -1,0 +1,870 @@
+Odd-Even Sort Sequential (Optimized with -O3)
+Odd-Even Sort Complete!
+Execution Time: 41509 milliseconds
+std::sort Time: 14 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_sequential 200000':
+
+   119,634,874,275      cpu-cycles:u                                                
+           114,568      cache-misses:u                                              
+             2,114      page-faults:u                                               
+
+      41.536203501 seconds time elapsed
+
+      41.403007000 seconds user
+       0.032922000 seconds sys
+
+
+
+Odd-Even Sort MPI (Optimized with -O3)
+Number of cores: 1
+Odd-Even Sort Complete!
+Execution Time: 38530 milliseconds
+std::sort Time: 16 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+   111,078,697,746      cpu-cycles:u                                                
+           190,477      cache-misses:u                                              
+             3,762      page-faults:u                                               
+
+      38.582965870 seconds time elapsed
+
+      38.458202000 seconds user
+       0.007981000 seconds sys
+
+
+Number of cores: 2
+Odd-Even Sort Complete!
+Execution Time: 27982 milliseconds
+std::sort Time: 20 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    80,612,618,701      cpu-cycles:u                                                
+            55,990      cache-misses:u                                              
+             2,964      page-faults:u                                               
+
+      28.035688176 seconds time elapsed
+
+      27.902927000 seconds user
+       0.050879000 seconds sys
+
+
+    80,641,147,874      cpu-cycles:u                                                
+            77,253      cache-misses:u                                              
+             3,559      page-faults:u                                               
+
+      28.038520432 seconds time elapsed
+
+      27.938546000 seconds user
+       0.017956000 seconds sys
+
+
+Number of cores: 4
+Odd-Even Sort Complete!
+Execution Time: 18345 milliseconds
+std::sort Time: 20 milliseconds
+Pass the sorting result check!
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    51,789,251,906      cpu-cycles:u                                                
+         4,758,431      cache-misses:u                                              
+    52,820,156,059      cpu-cycles:u                                                
+         2,922,903      cache-misses:u                                              
+             2,087      page-faults:u                                               
+
+      18.407953750 seconds time elapsed
+
+      18.312095000 seconds user
+       0.032915000 seconds sys
+
+
+             2,661      page-faults:u                                               
+
+      18.409657638 seconds time elapsed
+
+      18.029958000 seconds user
+       0.319255000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    51,780,783,762      cpu-cycles:u                                                
+         3,897,592      cache-misses:u                                              
+             2,646      page-faults:u                                               
+
+      18.690363272 seconds time elapsed
+
+      18.031224000 seconds user
+       0.318262000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    52,867,422,155      cpu-cycles:u                                                
+         4,262,017      cache-misses:u                                              
+             2,837      page-faults:u                                               
+
+      18.671422047 seconds time elapsed
+
+      18.339394000 seconds user
+       0.013966000 seconds sys
+
+
+Number of cores: 8
+Odd-Even Sort Complete!
+Execution Time: 11040 milliseconds
+std::sort Time: 20 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    31,635,396,982      cpu-cycles:u                                                
+         4,430,671      cache-misses:u                                              
+             1,951      page-faults:u                                               
+
+      11.109612976 seconds time elapsed
+
+      10.987588000 seconds user
+       0.072838000 seconds sys
+
+
+    31,239,825,430      cpu-cycles:u                                                
+         6,531,111      cache-misses:u                                              
+             1,955      page-faults:u                                               
+
+      11.101955160 seconds time elapsed
+
+      10.902349000 seconds user
+       0.157643000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    31,624,291,174      cpu-cycles:u                                                
+         5,300,813      cache-misses:u                                              
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+             1,942      page-faults:u                                               
+
+      11.592432141 seconds time elapsed
+
+      11.002974000 seconds user
+       0.056870000 seconds sys
+
+
+    30,939,391,738      cpu-cycles:u                                                
+         5,014,172      cache-misses:u                                              
+             2,457      page-faults:u                                               
+
+      11.102776319 seconds time elapsed
+
+      10.803449000 seconds user
+       0.254374000 seconds sys
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    30,916,674,191      cpu-cycles:u                                                
+         5,332,977      cache-misses:u                                              
+             2,456      page-faults:u                                               
+
+
+
+      11.586537253 seconds time elapsed
+
+      10.797212000 seconds user
+       0.262397000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    31,597,223,178      cpu-cycles:u                                                
+         3,966,823      cache-misses:u                                              
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+             2,429      page-faults:u                                               
+
+      11.102007948 seconds time elapsed
+
+      10.977150000 seconds user
+       0.082812000 seconds sys
+
+
+    31,191,862,535      cpu-cycles:u                                                
+         3,502,915      cache-misses:u                                              
+             2,454      page-faults:u                                               
+
+      11.595531268 seconds time elapsed
+
+      10.878311000 seconds user
+       0.181571000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    31,656,825,648      cpu-cycles:u                                                
+         6,188,377      cache-misses:u                                              
+             3,265      page-faults:u                                               
+
+      11.606033696 seconds time elapsed
+
+      11.006809000 seconds user
+       0.061852000 seconds sys
+
+
+Number of cores: 16
+Odd-Even Sort Complete!
+Execution Time: 6473 milliseconds
+std::sort Time: 20 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,171,196,153      cpu-cycles:u                                                
+         3,877,266      cache-misses:u                                              
+             1,877      page-faults:u                                               
+
+       6.544133909 seconds time elapsed
+
+       6.345723000 seconds user
+       0.160638000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,352,728,822      cpu-cycles:u                                                
+         4,300,381      cache-misses:u                                              
+             1,851      page-faults:u                                               
+
+    18,495,566,898      cpu-cycles:u                                                
+         2,642,434      cache-misses:u                                              
+             1,879      page-faults:u                                               
+
+       6.922493156 seconds time elapsed
+
+       6.429683000 seconds user
+       0.076805000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,160,901,111      cpu-cycles:u                                                
+         4,693,379      cache-misses:u                                              
+             1,877      page-faults:u                                               
+
+       6.931670492 seconds time elapsed
+
+       6.368812000 seconds user
+       0.137671000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,157,680,769      cpu-cycles:u                                                
+         5,948,810      cache-misses:u                                              
+             2,377      page-faults:u                                               
+
+       6.541980355 seconds time elapsed
+
+       6.588070200 seconds time elapsed
+
+       6.412991000 seconds user
+       0.092811000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,300,161,441      cpu-cycles:u                                                
+         4,080,583      cache-misses:u                                              
+             2,394      page-faults:u                                               
+
+       6.928982734 seconds time elapsed
+
+       6.401351000 seconds user
+       0.104776000 seconds sys
+
+
+    18,248,563,437      cpu-cycles:u                                                
+         4,336,632      cache-misses:u                                              
+             2,373      page-faults:u                                               
+
+       6.549717728 seconds time elapsed
+
+       6.384976000 seconds user
+       0.121732000 seconds sys
+
+
+       6.352490000 seconds user
+       0.153624000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,329,754,714      cpu-cycles:u                                                
+         5,344,822      cache-misses:u                                              
+             2,387      page-faults:u                                               
+
+       6.539028258 seconds time elapsed
+
+       6.405401000 seconds user
+       0.100770000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,519,914,749      cpu-cycles:u                                                
+         4,252,063      cache-misses:u                                              
+             2,389      page-faults:u                                               
+
+       6.593884166 seconds time elapsed
+
+       6.451224000 seconds user
+       0.055872000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,134,119,629      cpu-cycles:u                                                
+         3,521,311      cache-misses:u                                              
+             2,388      page-faults:u                                               
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,211,186,351      cpu-cycles:u                                                
+         3,705,679      cache-misses:u                                              
+             2,387      page-faults:u                                               
+
+       6.890665183 seconds time elapsed
+
+       6.375460000 seconds user
+       0.130701000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,570,868,400      cpu-cycles:u                                                
+         3,419,231      cache-misses:u                                              
+             2,391      page-faults:u                                               
+
+       6.539089847 seconds time elapsed
+
+       6.467195000 seconds user
+       0.039908000 seconds sys
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,431,926,875      cpu-cycles:u                                                
+         4,426,765      cache-misses:u                                              
+             2,383      page-faults:u                                               
+
+       6.538454733 seconds time elapsed
+
+       6.439917000 seconds user
+       0.065815000 seconds sys
+
+
+       6.898292519 seconds time elapsed
+
+       6.357009000 seconds user
+       0.149647000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,418,355,252      cpu-cycles:u                                                
+         4,495,577      cache-misses:u                                              
+             2,385      page-faults:u                                               
+
+       7.080616269 seconds time elapsed
+
+       6.434477000 seconds user
+       0.072824000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,546,732,889      cpu-cycles:u                                                
+         4,668,133      cache-misses:u                                              
+             2,386      page-faults:u                                               
+
+       7.057711136 seconds time elapsed
+
+       6.456183000 seconds user
+       0.049877000 seconds sys
+
+
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    18,486,834,956      cpu-cycles:u                                                
+         8,724,467      cache-misses:u                                              
+             3,407      page-faults:u                                               
+
+       6.891361705 seconds time elapsed
+
+       6.445642000 seconds user
+       0.069855000 seconds sys
+
+
+Number of cores: 32
+Odd-Even Sort Complete!
+Execution Time: 4057 milliseconds
+std::sort Time: 21 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,551,814,759      cpu-cycles:u                                                
+         3,140,505      cache-misses:u                                              
+             1,889      page-faults:u                                               
+
+       4.126914407 seconds time elapsed
+
+       4.036380000 seconds user
+       0.062834000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,562,004,134      cpu-cycles:u                                                
+         3,517,372      cache-misses:u                                              
+             1,904      page-faults:u                                               
+
+       4.126580979 seconds time elapsed
+
+       4.039389000 seconds user
+       0.058845000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+
+    11,421,545,563      cpu-cycles:u                                                
+         3,556,765      cache-misses:u                                              
+             1,904      page-faults:u                                               
+
+       4.128137777 seconds time elapsed
+
+       3.992911000 seconds user
+       0.106730000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,465,602,248      cpu-cycles:u                                                
+         2,744,856      cache-misses:u                                              
+             2,391      page-faults:u                                               
+
+       4.152338566 seconds time elapsed
+
+       4.013135000 seconds user
+       0.086786000 seconds sys
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,490,621,490      cpu-cycles:u                                                
+         3,003,772      cache-misses:u                                              
+             2,407      page-faults:u                                               
+
+       4.806389673 seconds time elapsed
+
+       4.041491000 seconds user
+       0.056852000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,363,884,117      cpu-cycles:u                                                
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,371,417,017      cpu-cycles:u                                                
+         2,614,740      cache-misses:u                                              
+             2,410      page-faults:u                                               
+
+       4.136058913 seconds time elapsed
+
+       3.981784000 seconds user
+       0.117698000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,535,618,442      cpu-cycles:u                                                
+            59,590      cache-misses:u                                              
+             2,419      page-faults:u                                               
+
+       4.920629900 seconds time elapsed
+
+       4.030908000 seconds user
+       0.068827000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+         2,795,721      cache-misses:u                                              
+             2,406      page-faults:u                                               
+
+       4.144107312 seconds time elapsed
+
+       3.992473000 seconds user
+       0.106745000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,515,878,864      cpu-cycles:u                                                
+         3,439,903      cache-misses:u                                              
+             2,419      page-faults:u                                               
+
+       4.126150149 seconds time elapsed
+
+       4.015846000 seconds user
+       0.083767000 seconds sys
+
+
+    11,449,467,607      cpu-cycles:u                                                
+         3,437,373      cache-misses:u                                              
+             2,413      page-faults:u                                               
+
+       4.125641250 seconds time elapsed
+
+       4.011681000 seconds user
+       0.087796000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,386,063,027      cpu-cycles:u                                                
+         2,595,587      cache-misses:u                                              
+             2,420      page-faults:u                                               
+
+       4.159422198 seconds time elapsed
+
+       4.002525000 seconds user
+       0.097719000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,527,455,309      cpu-cycles:u                                                
+         3,005,879      cache-misses:u                                              
+             2,427      page-faults:u                                               
+
+       4.139284977 seconds time elapsed
+
+       4.026663000 seconds user
+       0.072831000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,373,046,859      cpu-cycles:u                                                
+         3,081,598      cache-misses:u                                              
+             2,429      page-faults:u                                               
+
+       4.150626584 seconds time elapsed
+
+       4.000393000 seconds user
+       0.098787000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,331,031,109      cpu-cycles:u                                                
+         2,278,588      cache-misses:u                                              
+             1,912      page-faults:u                                               
+
+       4.621983275 seconds time elapsed
+
+       3.967440000 seconds user
+       0.117775000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,422,931,770      cpu-cycles:u                                                
+         2,892,834      cache-misses:u                                              
+             2,423      page-faults:u                                               
+
+       4.126846133 seconds time elapsed
+
+       3.993278000 seconds user
+       0.105742000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,416,270,868      cpu-cycles:u                                                
+            33,206      cache-misses:u                                              
+             1,888      page-faults:u                                               
+
+       4.752592142 seconds time elapsed
+
+       4.022879000 seconds user
+       0.076825000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,380,857,493      cpu-cycles:u                                                
+         2,835,325      cache-misses:u                                              
+             1,910      page-faults:u                                               
+
+       4.527445915 seconds time elapsed
+
+       3.986223000 seconds user
+       0.108706000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,338,260,412      cpu-cycles:u                                                
+         2,337,662      cache-misses:u                                              
+             2,423      page-faults:u                                               
+
+       4.790975071 seconds time elapsed
+
+       3.984745000 seconds user
+       0.108774000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,325,457,767      cpu-cycles:u                                                
+         2,373,958      cache-misses:u                                              
+             2,416      page-faults:u                                               
+
+       4.795474061 seconds time elapsed
+
+       3.979616000 seconds user
+       0.113589000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,262,589,843      cpu-cycles:u                                                
+         1,958,464      cache-misses:u                                              
+             1,916      page-faults:u                                               
+
+       4.640312455 seconds time elapsed
+
+       3.960574000 seconds user
+       0.118478000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,493,350,221      cpu-cycles:u                                                
+            53,842      cache-misses:u                                              
+             2,434      page-faults:u                                               
+
+       5.979250852 seconds time elapsed
+
+       4.012999000 seconds user
+       0.085764000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,393,740,179      cpu-cycles:u                                                
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,528,830,493      cpu-cycles:u                                                
+            58,447      cache-misses:u                                              
+             2,424      page-faults:u                                               
+
+       4.821171985 seconds time elapsed
+
+       4.051470000 seconds user
+       0.048885000 seconds sys
+
+
+         2,267,363      cache-misses:u                                              
+             2,420      page-faults:u                                               
+
+       4.585309180 seconds time elapsed
+
+       4.003568000 seconds user
+       0.093685000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,474,055,638      cpu-cycles:u                                                
+            23,423      cache-misses:u                                              
+             2,419      page-faults:u                                               
+
+       4.769797834 seconds time elapsed
+
+       4.013984000 seconds user
+       0.085785000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,467,572,471      cpu-cycles:u                                                
+         1,674,088      cache-misses:u                                              
+             2,436      page-faults:u                                               
+
+       5.305962117 seconds time elapsed
+
+       3.998154000 seconds user
+       0.096810000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,422,234,979      cpu-cycles:u                                                
+         2,613,512      cache-misses:u                                              
+             2,430      page-faults:u                                               
+
+       4.570519668 seconds time elapsed
+
+       4.009413000 seconds user
+       0.087790000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,457,704,023      cpu-cycles:u                                                
+         2,869,338      cache-misses:u                                              
+             2,428      page-faults:u                                               
+
+       4.681563052 seconds time elapsed
+
+       4.002595000 seconds user
+       0.074786000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,316,877,243      cpu-cycles:u                                                
+         1,985,964      cache-misses:u                                              
+             2,430      page-faults:u                                               
+
+       4.624457173 seconds time elapsed
+
+       3.990470000 seconds user
+       0.099786000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,468,929,911      cpu-cycles:u                                                
+            50,646      cache-misses:u                                              
+             2,424      page-faults:u                                               
+
+       6.694301113 seconds time elapsed
+
+       4.021467000 seconds user
+       0.073825000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,490,679,950      cpu-cycles:u                                                
+            56,128      cache-misses:u                                              
+             2,420      page-faults:u                                               
+
+       7.063490416 seconds time elapsed
+
+       4.022425000 seconds user
+       0.067821000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,445,376,120      cpu-cycles:u                                                
+           897,150      cache-misses:u                                              
+             2,424      page-faults:u                                               
+
+       7.901417878 seconds time elapsed
+
+       4.016494000 seconds user
+       0.079830000 seconds sys
+
+
+
+ Performance counter stats for '/nfsmnt/120090712/CSC4005-2023Fall/project3/build/src/odd-even-sort/odd-even-sort_mpi 200000':
+
+    11,619,612,401      cpu-cycles:u                                                
+         9,317,639      cache-misses:u                                              
+             3,460      page-faults:u                                               
+
+       4.836704604 seconds time elapsed
+
+       4.063696000 seconds user
+       0.043899000 seconds sys
+
+
+
